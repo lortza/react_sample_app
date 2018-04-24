@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+h1.project-divider {
+  border-top: 1px solid gray;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.sign {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+}
+.sign-image {width: 100px;}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
