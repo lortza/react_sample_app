@@ -6,3 +6,8 @@ This is a mish-mash of components from various lessons in the VCS React curricul
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+## Getting Started
+
+Run the app with `npm start`
+
+Browse to `localhost:3000`
