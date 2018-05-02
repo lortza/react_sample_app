@@ -11,3 +11,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Run the app with `npm start`
 
 Browse to `localhost:3000`
+
+To access the tasks API, also run the `rails_api_tasks` app locally on `localhost:4517`

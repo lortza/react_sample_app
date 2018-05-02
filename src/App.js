@@ -17,10 +17,8 @@ class App extends Component {
           <h2>My React App</h2>
         </div>
         <h1 className='project-divider'>Rails Tasks API Data</h1>
-        <div id="json-placeholder">json placeholder
-        {response.map(function(task){
-          return <Task key={task.id} details={task} />
-        })}
+        <div id="json-placeholder">
+          <TaskList />
         </div>
 
         <h1 className='project-divider'>Spirit Animal Form</h1>
