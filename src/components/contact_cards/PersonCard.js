@@ -1,11 +1,11 @@
 import React from 'react'
 
 const PersonCard = ({person}) => {
-  const {name, phone} = person
+  const {first_name, last_name, phone} = person
 
   return(
     <div className="PersonCard well">
-      <h1>{name}</h1>
+      <h3>{first_name} {last_name}</h3>
       <dl>
         <dt>Phone</dt>
         <dt>{phone}</dt>
