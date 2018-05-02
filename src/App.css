@@ -22,6 +22,10 @@ h1.project-divider {
 }
 .sign-image {width: 100px;}
 
+.task-list p {text-align: left;}
+
+.loading-spinner {width: 100px;}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
