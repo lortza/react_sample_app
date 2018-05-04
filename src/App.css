@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.App form {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
 h1.project-divider {
   border-top: 1px solid gray;
   padding-top: 20px;
@@ -25,6 +30,8 @@ h1.project-divider {
 .task-list p {text-align: left;}
 
 .loading-spinner {width: 100px;}
+
+.right {float: right;}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

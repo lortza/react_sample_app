@@ -14,9 +14,10 @@ class Task extends React.Component {
     }
   }
   render(){
-    const {name, complete, priority} = this.props.attributes
+    const {name, complete, priority, user_id} = this.props.attributes
+    const {id, deleteTask} = this.props
     return (
-      <p className='well'>{this.displayCheck(complete, priority)}&nbsp;&nbsp;{name}</p>
+      <p className='well'>{this.displayCheck(complete, priority)}&nbsp;(User_id: {user_id})&nbsp;#{id} {name} <a id={id} onClick={deleteTask} className="right">delete</a></p>
     )
   }
 }
