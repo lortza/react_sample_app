@@ -53,20 +53,28 @@ class SpiritForm extends React.Component {
       <React.Fragment>
         <p>Submit button appears after both fields have content.</p>
         <form onSubmit={this.onSubmitForm}>
-          <Input
-            name="name"
-            value={name}
-            onChange={this.onInputChange}
-          />
-          <Input
-            name="spiritAnimal"
-            value={spiritAnimal}
-            onChange={this.onInputChange}
-          />
-          <Showable show={showButton}>
-            <br />
-            <button type="submit" className="btn btn-xs btn-success">Submit</button>
-          </Showable>
+          <div className='row'>
+            <div className='col-xs-5'>
+              <Input
+                name="name"
+                value={name}
+                onChange={this.onInputChange}
+              />
+            </div>
+            <div className='col-xs-5'>
+              <Input
+                name="spiritAnimal"
+                value={spiritAnimal}
+                onChange={this.onInputChange}
+              />
+            </div>
+            <div className='col-xs-2'>
+              <Showable show={showButton}>
+                <br />
+                <button type="submit" className="btn btn-xs btn-success">Submit</button>
+              </Showable>
+            </div>
+          </div>
         </form>
       </React.Fragment>
     )
